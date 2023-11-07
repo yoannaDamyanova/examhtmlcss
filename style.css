@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f0f0; /* Light pink background */
+  }
+
+  h1 {
+    text-align: center;
+    color: #ff3e80; /* Pink title color */
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  p {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  fieldset {
+    border: 1px solid #ff99c2; /* Pink border */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #fee7eb; /* Light pink background */
+  }
+
+  legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ff3e80; /* Pink legend text color */
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ff3e80; /* Pink label text color */
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  input[type="password"],
+  input[type="file"] {
+    width: 250px; /* Adjust the width as needed */
+    margin-right: 10px; /* Add some spacing between inputs */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff99c2; /* Pink border */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  small {
+    color: #ff3e80; /* Pink small text color */
+  }
+
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  button[type="submit"] {
+    background-color: #ff3e80; /* Darker pink button background */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #ff0066; /* Lighter pink on hover */
+  }
+
+  select {
+    width: 270px; /* Adjust the width as needed */
+    margin-right: 10px; /* Add some spacing between inputs */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ff99c2; /* Pink border */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+.block {
+    display: inline-block;
+}
+
+  .input-container {
+    display: inline-block;
+}
+

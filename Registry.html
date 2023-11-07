@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registry</title>
+  </head>
+  <body>
+    <h1>Register Form</h1>
+
+    <p>Have an account? <a href="LogIn.html">Log In</a></p>
+
+    <p>All fields marked with * are required.</p>
+
+    <form action="" method="post">
+      <fieldset>
+        <legend>Personal information</legend>
+
+        <label for="Name">Full Name*</label>
+        <div class="input-container">
+          <input type="text" name="first" placeholder="First Name" />
+        </div>
+        <div class="input-container">
+          <input type="text" name="last" placeholder="Last Name" />
+        </div>
+
+        <label for="Id">Personal ID *</label>
+        <div class="input-container">
+          <input
+            type="text"
+            name="personal_id"
+            minlength="10"
+            maxlength="10"
+            required
+          />
+          <small>Personal ID must be 10 digits</small>
+        </div>
+        <div class="block">
+          <label for="birthdate">Date of Birth *</label>
+          <div class="input-container">
+            <input
+              type="date"
+              name="date_birth"
+              placeholder="DD/MM/YYYY"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="block">
+          <label for="email">Email address *</label>
+          <div class="ïnput-container">
+            <input
+              type="email"
+              name="email"
+              placeholder="email@site.com"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="block">
+          <label for="number">Telephone Number</label>
+          <div class="ïnput-container">
+            <input
+              type="tel"
+              name="phone"
+              placeholder="### ### ####"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="block">
+          <label for="city">City *</label>
+          <div class="input-container">
+            <select name="city">
+              <option value="" disabled selected>Select city</option>
+              <option value="tarnovo">Veliko Tarnovo</option>
+              <option value="sofia">Sofia</option>
+              <option value="plovdiv">Plovdiv</option>
+              <option value="varna">Varna</option>
+              <option value="burgas">Burgas</option>
+            </select>
+          </div>
+        </div>
+
+        <label for="gender">Gender *</label>
+        <div class="input-container">
+          <label>
+            <input type="radio" name="gender" value="man" required />
+            Man
+          </label>
+        </div>
+        <div class="input-container">
+          <label>
+            <input type="radio" name="gender" value="female" required />
+            Female
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Profile information</legend>
+        <div class="block">
+          <label for="username">Username *</label>
+          <div class="input-container">
+            <input type="text" name="username" required />
+          </div>
+        </div>
+        <div class="block">
+          <label for="password">Password *</label>
+          <div class="input-container">
+            <input type="password" name="password" minlength="6" required />
+            <small>Password must be a minimum of 6 characters</small>
+          </div>
+        </div>
+      </fieldset>
+
+      <p align="center"><button type="submit">Register Now</button></p>
+    </form>
+  </body>
+</html>
